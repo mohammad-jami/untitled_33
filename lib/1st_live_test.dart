@@ -21,7 +21,7 @@ void main() {
 
   Media media = Media();
 
-  Song song = Song("Ed Sheeran");
+  Song song = Song("Eminem");
 
   media.play();
 
