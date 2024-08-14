@@ -17,6 +17,8 @@ class Song extends Media {
 }
 
 
+abstract class ClassName{}
+
 void main() {
 
   Media media = Media();
@@ -27,3 +29,4 @@ void main() {
 
   song.play();
 }
+
