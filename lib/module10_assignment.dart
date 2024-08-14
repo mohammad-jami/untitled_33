@@ -34,31 +34,25 @@ class GreetingPage extends StatelessWidget {
             const Text(
               'Hello, World!',
               style: TextStyle(
-                color: Colors.red, // Change text color to red
-                fontWeight: FontWeight.bold, // Make text bold
-                fontSize: 24, // Optionally set a font size
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                fontSize: 24,
               ),
             ),
-            const SizedBox(height: 16), // Add spacing between texts
+            const SizedBox(height: 16),
             const Text(
               'Welcome to Flutter!',
               style: TextStyle(
-                fontSize: 20, // Optionally set a font size
+                fontSize: 20,
               ),
             ),
-            const SizedBox(height: 16), // Add spacing between text and image
-            // const Image(
-            //   image: AssetImage('assets/images/flutter.jpg'),
-            // ),
+            const SizedBox(height: 16),
             Image.network(
               'https://images.freeimages.com/images/large-previews/f99/red-photos-1198380.jpg',
               height: 200,
-              width: 200,// Adjust the height as needed
+              width: 200,
             ),
-            //Image.asset('assets/images/flutter.jpg',width: 150,height: 150,),
-            // width: 150, // Set width of the image
-            // height: 150, // Set height of the image
-            const SizedBox(height: 16), // Add spacing before the button
+            const SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {
                 const snackBar = SnackBar(
@@ -67,7 +61,7 @@ class GreetingPage extends StatelessWidget {
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.green, // Change button color to green
+                backgroundColor: Colors.green,
               ),
               child: const Text('Press Me'),
             ),
