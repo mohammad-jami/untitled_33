@@ -56,7 +56,7 @@ class MyHomePage extends StatelessWidget {
               TextSpan(
                 text: 'Welcome To  ',
                 style: TextStyle(fontSize: 20),
-                children: <TextSpan>[
+                children:[
                   TextSpan(
                     text: 'Flutter!',
                     style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),
